@@ -225,7 +225,7 @@ const Home = (props) => {
                 <label className="profile-text21 Label">Mi nombre es</label>
                 <input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Nombre"
                   className="profile-textinput Small input"
                   {...name}
                 />
@@ -239,7 +239,7 @@ const Home = (props) => {
                 <label className="profile-text23 Label">Contanos qué necesitas</label>
                 <textarea
                   rows="4"
-                  placeholder=""
+                  placeholder="Consulta"
                   className="profile-textarea textarea Small"
                   {...text}
                 ></textarea>
@@ -260,7 +260,7 @@ const Home = (props) => {
                   <span>de Contacto</span>
                 </h3>
                 <span className="profile-text27">
-                  En un plazo no mayor a 48hs responderemos tus consultas
+                  En menos de 48hs te respondemos
                 </span>
                 <div className="profile-container13">
                   <div className="profile-container15">
