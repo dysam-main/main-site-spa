@@ -157,7 +157,7 @@ const Home = (props) => {
               <div className="home-container06 you">
                 <img src="./img/you2.png" />
                 <ListItem
-                  title="1. Vos definis"
+                  title="1. Vos definís"
                   body="Tomamos todas tus especificaciones, requerimientos y necesidades, y te ayudamos a definir las ideas que tengas"
                 ></ListItem>
               </div>
@@ -176,7 +176,7 @@ const Home = (props) => {
               <div className="home-container06 you">
                 <img src="./img/you2.png" />
                 <ListItem
-                  title="3. Vos aprobas"
+                  title="3. Vos aprobás"
                   body="Te presentamos el producto terminado, contemplando todas tus indicaciones. Y al final..."
                 ></ListItem>
               </div>
