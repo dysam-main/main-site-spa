@@ -109,9 +109,9 @@ const Home = (props) => {
           text={[
             "Diseño Full Responsive",
             "Desarrollo",
-            "Interface de Gestión de Aplicación",
+            "Interfaz de Gestión de Aplicación",
             "Implementación Front & Back",
-            "Manntenimiento del Servicio",
+            "Mantenimiento del Servicio",
             "Registro de Dominio",
             "Mantenimiento de Dominio",
             "Hosteo",
@@ -123,8 +123,8 @@ const Home = (props) => {
           text={[
             "Diseño y Arquitectura",
             "Desarrollo",
-            "Protecciones y Segurdad",
-            "Interfaces de Escritorio y Celular",
+            "Protecciones y Seguridad",
+            "Interfaz de Escritorio y Celular",
             "Implementación",
             "Mantenimiento del Sistema",
             "Hosteo",
@@ -176,7 +176,7 @@ const Home = (props) => {
               <div className="home-container06 you">
                 <img src="./img/you2.png" />
                 <ListItem
-                  title="3. Vos aprovas"
+                  title="3. Vos aprobas"
                   body="Te presentamos el producto terminado, contemplando todas tus indicaciones. Y al final..."
                 ></ListItem>
               </div>
@@ -264,7 +264,7 @@ const Home = (props) => {
                 </span>
                 <div className="profile-container13">
                   <div className="profile-container15">
-                    <a href="tel:+5492694528053">
+                    <a href="tel:+5492964528053">
                       <svg viewBox="0 0 1024 1024" className="profile-icon02">
                         <path d="M742 460l-94-94q-18-18-10-44 24-72 24-152 0-18 12-30t30-12h150q18 0 30 12t12 30q0 300-213 513t-513 213q-18 0-30-12t-12-30v-150q0-18 12-30t30-12q80 0 152-24 24-10 44 10l94 94q186-96 282-282z"></path>
                       </svg>
@@ -273,7 +273,7 @@ const Home = (props) => {
                       <RiWhatsappFill className="profile-icon02" />
                     </a>
                     <span className="profile-link Small">
-                      (+54) 2694 528053
+                      (+54) 2964 528053
                     </span>
                   </div>
                   <div className="profile-container16">
