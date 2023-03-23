@@ -227,19 +227,19 @@ const Home = (props) => {
             <Link to="https://test-site1-psi.vercel.app/">
               <BlogCard
                 image_src="./img/test-stite1.png"
-                description="Maqueta de Página de PResentación de Empresa de Publicidad"
+                description="Maqueta de Página de Presentación de Empresa de Publicidad"
               ></BlogCard>
             </Link>
             <Link to="https://test-site2-iota.vercel.app/">
               <BlogCard
                 image_src="./img/test-stite2.png"
-                description="Maqueta para Página de Presentación de Mobile App de Finanzas"
+                description="Maqueta para Página de Presentación de Mobile App"
               ></BlogCard>
             </Link>
             <Link to="https://test-site2-iota.vercel.app/">
               <BlogCard
                 image_src="./img/test-stite3.png"
-                description="Maqueta para Página de Presentación de Mobile App de Gestión de Proyectos"
+                description="Maqueta para Página de Presentación de Mobile App"
               ></BlogCard>
             </Link>
             {/* <BlogCard
