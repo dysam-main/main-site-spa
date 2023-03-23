@@ -32,6 +32,9 @@ const Header = (props) => {
             <Scrollchor to="#process" className="header-link2">
               Proceso
             </Scrollchor>
+            <Scrollchor to="#projects" className="header-link2">
+              Proyectos
+            </Scrollchor>
             <Scrollchor to="#contact" className="header-link4">
               Contactanos
             </Scrollchor>
@@ -62,6 +65,9 @@ const Header = (props) => {
             </Scrollchor>
             <Scrollchor to="#process" className="header-link1" onClick={toggleMenu}>
               Proceso
+            </Scrollchor>
+            <Scrollchor to="#projects" className="header-link1" onClick={toggleMenu}>
+              Proyectos
             </Scrollchor>
             <Scrollchor to="#contact" className="header-link1" onClick={toggleMenu}>
               Contactanos

@@ -13,6 +13,8 @@ import "./home.css";
 import { RiWhatsappFill } from "react-icons/ri";
 import { Scrollchor } from "react-scrollchor";
 import Swal from "sweetalert2";
+import BlogCard from "../components/blog-card";
+import { Link } from "react-router-dom";
 
 const Home = (props) => {
   const name = handleInput();
@@ -20,13 +22,13 @@ const Home = (props) => {
   const text = handleInput();
   const regExMail = /\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/gi;
   const onClick = (e) => {
-    if(!regExMail.test(mail.value)){
+    if (!regExMail.test(mail.value)) {
       Swal.fire({
         icon: "error",
         title: "Oops",
         text: `Mail no Válido`,
       });
-      return
+      return;
     }
     const temp = {
       from_name: name.value,
@@ -41,7 +43,6 @@ const Home = (props) => {
           title: "Mensaje Enviado. Gracias!",
         })
       );
-      
     } catch (error) {
       Swal.fire({
         icon: "error",
@@ -66,13 +67,14 @@ const Home = (props) => {
             </span>
             <span className="home-text01 Lead">
               <span>
-                Ayudamos a emprendedores en crecimiento creando soluciones digitales a medida que potencien su negocio
+                Ayudamos a emprendedores en crecimiento creando soluciones
+                digitales a medida que potencien su negocio
               </span>
             </span>
             <div className="home-container02">
               <div className="home-container03">
                 <Scrollchor to="#contact">
-                <PrimaryPinkButton button="Contactanos"></PrimaryPinkButton>
+                  <PrimaryPinkButton button="Contactanos"></PrimaryPinkButton>
                 </Scrollchor>
               </div>
             </div>
@@ -215,6 +217,41 @@ const Home = (props) => {
 
         <div className="home-divider"></div>
 
+        <div className="profile-blog-posts" id="projects">
+          <h1 className="profile-text11 HeadingTwo">
+            <span></span>
+            <span>Algunas ideas</span>
+            <br></br>
+          </h1>
+          <div className="profile-container04">
+            <Link to="https://test-site1-psi.vercel.app/">
+              <BlogCard
+                image_src="./img/test-stite1.png"
+                description="Maqueta de Página de PResentación de Empresa de Publicidad"
+              ></BlogCard>
+            </Link>
+            <Link to="https://test-site2-iota.vercel.app/">
+              <BlogCard
+                image_src="./img/test-stite2.png"
+                description="Maqueta para Página de Presentación de Mobile App de Finanzas"
+              ></BlogCard>
+            </Link>
+            <Link to="https://test-site2-iota.vercel.app/">
+              <BlogCard
+                image_src="./img/test-stite3.png"
+                description="Maqueta para Página de Presentación de Mobile App de Gestión de Proyectos"
+              ></BlogCard>
+            </Link>
+            {/* <BlogCard
+              title="MateLabs machine learning"
+              image_src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-wall.jpg"
+              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with"
+            ></BlogCard> */}
+          </div>
+        </div>
+
+        <div className="home-divider"></div>
+
         <div className="profile-contact" id="contact">
           <div className="profile-container09">
             <div className="profile-form">
@@ -236,7 +273,9 @@ const Home = (props) => {
                   className="profile-textinput Small input"
                   {...mail}
                 />
-                <label className="profile-text23 Label">Contanos qué necesitas</label>
+                <label className="profile-text23 Label">
+                  Contanos qué necesitas
+                </label>
                 <textarea
                   rows="4"
                   placeholder="Consulta"

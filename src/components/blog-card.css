@@ -24,3 +24,13 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
+
+.blog-card-container:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}
+
+.blog-card-container:not(:hover) {
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
