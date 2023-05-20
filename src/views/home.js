@@ -224,24 +224,24 @@ const Home = (props) => {
             <br></br>
           </h1>
           <div className="profile-container04">
-            <Link to="https://test-site1-psi.vercel.app/">
+            <a href="https://test-site1-psi.vercel.app/">
               <BlogCard
                 image_src="./img/test-stite1.png"
                 description="Maqueta de Página de Presentación de Empresa de Publicidad"
               ></BlogCard>
-            </Link>
-            <Link to="https://test-site2-iota.vercel.app/">
+            </a>
+            <a href="https://test-site2-iota.vercel.app/">
               <BlogCard
                 image_src="./img/test-stite2.png"
                 description="Maqueta para Página de Presentación de Mobile App"
               ></BlogCard>
-            </Link>
-            <Link to="https://test-site2-iota.vercel.app/">
+            </a>
+            <a href="https://test-site3-sigma.vercel.app/">
               <BlogCard
                 image_src="./img/test-stite3.png"
                 description="Maqueta para Página de Presentación de Mobile App"
               ></BlogCard>
-            </Link>
+            </a>
             {/* <BlogCard
               title="MateLabs machine learning"
               image_src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-wall.jpg"
